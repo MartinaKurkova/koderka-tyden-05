@@ -22,3 +22,16 @@ html { box-sizing: border-box; }
 }
 
 /* ---------------------------------------------------- */
+/*.prvni {
+	padding: calc(1em + 10px);
+}*/
+
+.kontejner {
+	display: flex;
+	justify-content: space-between;
+	gap: 20px;
+}
+
+.box {
+	flex: 0 0 calc(100% / 3);
+}
