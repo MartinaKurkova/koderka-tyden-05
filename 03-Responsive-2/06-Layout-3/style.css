@@ -33,3 +33,42 @@ header > :last-child, footer > :last-child, article > :last-child, nav > :last-c
 	- 1000px
 */
 
+@media screen and (min-width: 640px) {
+	.kontejner {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.obsah {
+		display: flex;
+		flex: 1 1 60%;
+	}
+	.reklama {
+		display: flex;
+		justify-content: space-between;
+		flex-direction: row;
+		flex-wrap: wrap;
+		gap: 20px;
+	}
+}
+
+@media screen and (min-width: 1000px) {
+	.obsah {
+		flex: 1 1 75%;
+		flex-wrap: wrap;
+	}
+	.menu {
+		flex: 1 1 25%;
+	}
+	.clanek {
+		flex: 1 1 100%;
+	}
+	.reklama {
+		flex-wrap: nowrap;
+	}
+	.reklama1 {
+		flex: 1 1 50%;
+	}
+	.reklama2 {
+		flex: 1 1 50%;
+	}
+}
